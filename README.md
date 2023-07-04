@@ -1,6 +1,6 @@
 # cookie
 
-A new Flutter project.
+A voice assistant application using flutter.
 
 ## Getting Started
 
