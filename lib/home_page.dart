@@ -1,5 +1,3 @@
-// ignore_for_file: depend_on_referenced_packages
-
 import 'package:allen/feature_box.dart';
 import 'package:allen/openai_service.dart';
 import 'package:allen/pallete.dart';
