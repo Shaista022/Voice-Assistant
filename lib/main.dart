@@ -1,3 +1,4 @@
+import 'package:cookie/pallete.dart';
 import 'package:flutter/material.dart';
 import 'package:cookie/home_page.dart';
 
@@ -15,7 +16,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Cookie',
       theme: ThemeData.light(useMaterial3: true).copyWith(
-        scaffoldBackgroundColor: Colors.white,
+        scaffoldBackgroundColor: Pallete.whiteColor,
+        appBarTheme:const AppBarTheme(
+          backgroundColor: Pallete.whiteColor
+        )
       ),
       home: const HomePage(),
     );
